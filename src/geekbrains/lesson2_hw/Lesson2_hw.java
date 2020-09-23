@@ -183,6 +183,7 @@ public class Lesson2_hw {
 
         if (n > 0) {
             for (int i = 0; i < n; i++) {
+
                 //сдвигаем вправо
                 int buffer = myArr7[myArr7.length - 1];
                 for (int j = myArr7.length - 1; j > 0; j--) {
@@ -192,6 +193,7 @@ public class Lesson2_hw {
             }
         } else if (n < 0) {
             for (int i = 0; i < n * (-1); i++) {
+
                 //  сдвигаем влево
                 int buffer = myArr7[0];
                 for (int j = 0; j < myArr7.length - 1; j++) {
